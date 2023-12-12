@@ -11,7 +11,7 @@ const CTA = () => {
                 Love you in every universe
                 <br/>
                 <p className='cta-text typing-demo'>
-                    Your super hero
+                    Your super hero ❤
                 </p>
                 <br/>
             </p>
