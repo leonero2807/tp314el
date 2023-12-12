@@ -26,6 +26,16 @@ import {
     typescript
 } from "../assets/icons";
 
+import test1 from "../assets/loves/test1.png"
+import test2 from "../assets/loves/test2.jpg"
+import test3 from "../assets/loves/test3.jpg"
+import test4 from "../assets/loves/test4.jpg"
+import test5 from "../assets/loves/test5.jpg"
+import test6 from "../assets/loves/test6.png"
+import test7 from "../assets/loves/test7.jpg"
+import test8 from "../assets/loves/test8.jpg"
+
+
 export const skills = [
     {
         imageUrl: css,
@@ -107,6 +117,44 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     }
+];
+
+export const loves = [
+    {
+        imageUrl: test1,
+        name: "test1",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test2,
+        name: "test2",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test4,
+        name: "test4",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test5,
+        name: "test5",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test6,
+        name: "test6",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test7,
+        name: "test7",
+        type: "Frontend",
+    },
+    {
+        imageUrl: test8,
+        name: "test8",
+        type: "Frontend",
+    },
 ];
 
 export const experiences = [

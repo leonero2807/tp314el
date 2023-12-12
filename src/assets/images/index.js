@@ -4,6 +4,7 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
+import logoo from './logoo.png'
 
 export {
     hero,
@@ -11,5 +12,7 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    logoo
+
 }
