@@ -1,0 +1,6 @@
+.typewriter-container {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 2em;
+    border-right: 3px solid;
+}
