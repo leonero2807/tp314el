@@ -1,11 +1,11 @@
 import Home from "./Home";
-import About from './About'
-import Projects from "./Projects";
+import Gallery from './Gallery.jsx'
+import Message from "./Message.jsx";
 import Contact from "./Contact";
 
 export {
     Home,
-    About,
-    Projects,
+    Gallery,
+    Message,
     Contact
 }

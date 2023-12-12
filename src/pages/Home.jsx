@@ -2,12 +2,13 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
 import sakura from "../assets/sakura.mp3";
+import perfect from "../assets/perfect.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
 
 const Home = () => {
-  const audioRef = useRef(new Audio(sakura));
+  const audioRef = useRef(new Audio(perfect));
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
 
@@ -105,6 +106,7 @@ const Home = () => {
       </Canvas>
 
       <div className='absolute bottom-2 left-2'>
+        Click below to play music
         <img
           src={!isPlayingMusic ? soundoff : soundon}
           alt='jukebox'

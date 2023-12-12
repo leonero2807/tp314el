@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
-import { About, Contact, Home, Projects } from "./pages";
+import { Gallery, Contact, Home, Message } from "./pages";
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
             element={
               <>
                 <Routes>
-                  <Route path='/gallery' element={<About />} />
-                  <Route path='/message' element={<Projects />} />
+                  <Route path='/gallery' element={<Gallery />} />
+                  <Route path='/message' element={<Message />} />
                   <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <Footer />
